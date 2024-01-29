@@ -1,24 +1,110 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Клуб четырех коней</title>
+	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <header class="header">
-
+		<div class="container">
+			<div class="header_top">
+				<img src="image/logotip.png" alt="Логотип - Клуб четырех коней" class="header__image">
+				<h1 class="header__heading">
+					Клуб четырех&nbsp;коней
+				</h1>
+			</div>
+			<div class="header__left">
+				<h2 class="header__title section-title">Превратите уездный город</h2>
+				<h2 class="header__title section-title text-center">в столицу</h2>
+				<h2 class="header__title section-title text-right">земного шара</h2>
+				<p class="header__text text-center">
+					Оплатите взнос на&nbsp;телеграммы для организации Международного васюкинского турнира по&nbsp;шахматам
+				</p>
+				<div class="header__group">
+					<a href="#idea" class="header__btn btn btn-black">Поддержать шахматную мысль</a>
+					<a href="#detailed" class="header__btn btn btn-outlain-black">Подробнее о&nbsp;турнире</a>
+				</div>
+			</div>
+		</div>
 	</header>
 	<div class="main">
-		<section class="hero">
-			
+		<section class="marquee">
+			<div class="marquee__container">
+				<span class="marquee__item">Дело помощи утопающим&nbsp;&mdash; дело рук самих утопающих!</span>
+				<span class="marquee__item">Шахматы двигают вперед не&nbsp;только культуру, но&nbsp;и&nbsp;экономику!</span>
+				<span class="marquee__item">Лед тронулся, господа присяжные заседатели!</span>
+			</div>
 		</section>
-		<section class="idea">
-
+		<section class="idea" id="idea">
+			<div class="container">
+				<div class="idea__content">
+					<h2 class="idea__title section-title">
+						Чтобы поддержать Международный васюкинский турнир посетите лекцию на&nbsp;тему: 
+						<span class="text-red">&laquo;Плодотворная дебютная идея&raquo;</span>
+					</h2>
+					<div class="idea__right"></div>
+				</div>
+			</div>
+		</section>
+		<section class="detailed" id="detailed">
+			<div class="container">
+				<div class="detailed__content">
+					<div class="detailed__right">
+						<h2 class="detailed__title section-title">
+							и&nbsp;Сеанс <span class="text-red">одновременной игры в&nbsp;шахматы на&nbsp;160 досках</span> гроссмейстера О.&nbsp;Бендера
+						</h2>
+						<table class="detailed__table">
+							<tbody>
+								<tr class="detailed__tr">
+									<td class="detailed__caption">Место проведения:</td>
+									<td class="detailed__list">Клуб &laquo;Картонажник&raquo;</td>
+								</tr>
+								<tr class="detailed__tr">
+									<td class="detailed__caption">Дата и&nbsp;время мероприятия:</td>
+									<td class="detailed__list">22&nbsp;июня 1927&nbsp;г.&nbsp;в&nbsp;18:00</td>
+								</tr>
+								<tr class="detailed__tr">
+									<td class="detailed__caption">Стоимость входных билетов:</td>
+									<td class="detailed__list">20&nbsp;коп.</td>
+								</tr>
+								<tr class="detailed__tr">
+									<td class="detailed__caption">Плата за&nbsp;игру:</td>
+									<td class="detailed__list">50&nbsp;коп.</td>
+								</tr>
+								<tr class="detailed__tr">
+									<td class="detailed__caption">Взнос на&nbsp;телеграммы:</td>
+									<td class="detailed__list"><span class="text-underline">100&nbsp;руб.</span> 21&nbsp;руб.&nbsp;16&nbsp;коп.</td>
+								</tr>
+							</tbody>
+						</table>
+						<p class="detailed_link">
+							По&nbsp;всем вопросам обращаться в&nbsp;администрацию к&nbsp;К.&nbsp;Михельсону
+						</p>
+					</div>
+				</div>
+			</div>
 		</section>
 		<section class="stage">
-
+			<div class="container">
+				<h2 class="stage__title section-title">
+					Этапы преображения Васюков
+					<span class="stage__subtitle">Будущие источники обогащения васюкинцев</span>
+				</h2>
+				<div class="stage__content">
+					<ul class="stage__list slider">
+						<li class="stage__item slider-item col-3"><p class="stage__text"></p>Строительство железнодорожной магистрали Москва-Васюки</p></li>
+						<li class="stage__item slider-item col-3"><p class="stage__text"></p>Открытие фешенебельной гостиницы &laquo;Проходная пешка&raquo; и&nbsp;других небоскрёбов</p></li>
+						<li class="stage__item slider-item col-3"><p class="stage__text"></p>Поднятие сельского хозяйства в&nbsp;радиусе на&nbsp;тысячу километров: производство овощей, фруктов, икры, шоколадных конфет</p></li>
+						<li class="stage__item slider-item col-3"><p class="stage__text"></p>Строительство дворца для турнира</p></li>
+						<li class="stage__item slider-item col-3"><p class="stage__text"></p>Размещение гаражей для гостевого автотранспорта</p></li>
+						<li class="stage__item slider-item col-3"><p class="stage__text"></p>Постройка сверхмощной радиостанции для передачи всему миру сенсационных результатов</p></li>
+						<li class="stage__item slider-item col-2"><p class="stage__text">Создание аэропорта &laquo;Большие Васюки&raquo; с&nbsp;регулярным отправлением почтовых самолётов и&nbsp;дирижаблей во&nbsp;все концы света, включая Лос-Анжелос и&nbsp;Мельбурн</p></li>
+					</ul>
+				</div>
+			</div>
 		</section>
 		<section class="caruosel">
 
