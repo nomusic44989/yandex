@@ -6,6 +6,7 @@
 	<title>Клуб четырех коней</title>
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
+	<script defer src="./main.js"></script>
 </head>
 <body>
   <header class="header">
@@ -94,25 +95,111 @@
 					<span class="stage__subtitle">Будущие источники обогащения васюкинцев</span>
 				</h2>
 				<div class="stage__content">
+					<div class="stage__airo"></div>
 					<ul class="stage__list slider">
-						<li class="stage__item slider-item col-3"><p class="stage__text"></p>Строительство железнодорожной магистрали Москва-Васюки</p></li>
-						<li class="stage__item slider-item col-3"><p class="stage__text"></p>Открытие фешенебельной гостиницы &laquo;Проходная пешка&raquo; и&nbsp;других небоскрёбов</p></li>
-						<li class="stage__item slider-item col-3"><p class="stage__text"></p>Поднятие сельского хозяйства в&nbsp;радиусе на&nbsp;тысячу километров: производство овощей, фруктов, икры, шоколадных конфет</p></li>
-						<li class="stage__item slider-item col-3"><p class="stage__text"></p>Строительство дворца для турнира</p></li>
-						<li class="stage__item slider-item col-3"><p class="stage__text"></p>Размещение гаражей для гостевого автотранспорта</p></li>
-						<li class="stage__item slider-item col-3"><p class="stage__text"></p>Постройка сверхмощной радиостанции для передачи всему миру сенсационных результатов</p></li>
-						<li class="stage__item slider-item col-2"><p class="stage__text">Создание аэропорта &laquo;Большие Васюки&raquo; с&nbsp;регулярным отправлением почтовых самолётов и&nbsp;дирижаблей во&nbsp;все концы света, включая Лос-Анжелос и&nbsp;Мельбурн</p></li>
+						<li class="stage__item slider-item post-1"><p class="stage__text">Строительство железнодорожной магистрали Москва-Васюки</p></li>
+						<li class="stage__item slider-item post-2"><p class="stage__text">Открытие фешенебельной гостиницы &laquo;Проходная пешка&raquo; и&nbsp;других небоскрёбов</p></li>
+						<li class="stage__item slider-item post-3"><p class="stage__text">Поднятие сельского хозяйства в&nbsp;радиусе на&nbsp;тысячу километров: производство овощей, фруктов, икры, шоколадных конфет</p></li>
+						<li class="stage__item slider-item post-4"><p class="stage__text">Строительство дворца для турнира</p></li>
+						<li class="stage__item slider-item post-5"><p class="stage__text">Размещение гаражей для гостевого автотранспорта</p></li>
+						<li class="stage__item slider-item post-6"><p class="stage__text">Постройка сверхмощной радиостанции для передачи всему миру сенсационных результатов</p></li>
+						<li class="stage__item slider-item post-7"><p class="stage__text">Создание аэропорта &laquo;Большие Васюки&raquo; с&nbsp;регулярным отправлением почтовых самолётов и&nbsp;дирижаблей во&nbsp;все концы света, включая Лос-Анжелос и&nbsp;Мельбурн</p></li>
 					</ul>
 				</div>
 			</div>
 		</section>
 		<section class="caruosel">
-
+			<div class="container">
+				<div class="caruosel__header">
+					<h2 class="caruosel__title section-title">Участники турнира</h2>
+					<div class="caruosel__group group" id="group">
+						<div class="group__prev group__btn" id="prev"></div>
+						<div class="group__slider" id="sliders"></div>
+						<div class="group__next group__btn" id="next"></div>
+					</div>
+				</div>
+				<div class="caruosel_content" id="caruosel">
+					<ul class="caruosel__list lists">
+						<li class="caruosel__item active">
+							<div class="card__prodile"><img class="card__image" alt="Профиль Хозе-Рауль Капабланка" src="image/profile.png"></div>
+							<h3 class="card__name">Хозе-Рауль Капабланка</h3>
+							<p class="card__text">Чемпион мира по шахматам</p>
+							<a href="#" class="caruosel__btn btn">Подробнее</a>
+						</li>
+						<li class="caruosel__item">
+							<div class="card__prodile"><img class="card__image" alt="Профиль Эммануил Ласкер" src="image/profile.png"></div>
+							<h3 class="card__name">Эммануил Ласкер</h3>
+							<p class="card__text">Чемпион мира по шахматам</p>
+							<a href="#" class="caruosel__btn btn">Подробнее</a>
+						</li>
+						<li class="caruosel__item">
+							<div class="card__prodile"><img class="card__image" alt="Профиль Александр Алехин" src="image/profile.png"></div>
+							<h3 class="card__name">Александр Алехин</h3>
+							<p class="card__text">Чемпион мира по шахматам</p>
+							<a href="#" class="caruosel__btn btn">Подробнее</a>
+						</li>
+						<li class="caruosel__item">
+							<div class="card__prodile"><img class="card__image" alt="Профиль Арон Нимцович" src="image/profile.png"></div>
+							<h3 class="card__name">Арон Нимцович</h3>
+							<p class="card__text">Чемпион мира по шахматам</p>
+							<a href="#" class="caruosel__btn btn">Подробнее</a>
+						</li>
+						<li class="caruosel__item">
+							<div class="card__prodile"><img class="card__image" alt="Профиль Рихард Рети" src="image/profile.png"></div>
+							<h3 class="card__name">Рихард Рети</h3>
+							<p class="card__text">Чемпион мира по шахматам</p>
+							<a href="#" class="caruosel__btn btn">Подробнее</a>
+						</li>
+						<li class="caruosel__item">
+							<div class="card__prodile"><img class="card__image" alt="Профиль Остап Бендер" src="image/profile.png"></div>
+							<h3 class="card__name">Остап Бендер</h3>
+							<p class="card__text">Чемпион мира по шахматам</p>
+							<a href="#" class="caruosel__btn btn">Подробнее</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section class="marquee marquee__botton">
+			<div class="marquee__container">
+				<span class="marquee__item">Дело помощи утопающим&nbsp;&mdash; дело рук самих утопающих!</span>
+				<span class="marquee__item">Шахматы двигают вперед не&nbsp;только культуру, но&nbsp;и&nbsp;экономику!</span>
+				<span class="marquee__item">Лед тронулся, господа присяжные заседатели!</span>
+			</div>
 		</section>
 	</div>
 	<footer class="footer">
-
+		<div class="container">
+			<p class="footer__text">
+				Все персонажи, события и&nbsp;цитаты являются вымышленными и&nbsp;не&nbsp;принадлежат создателям сайта. С&nbsp;подробностями можно познакомиться в&nbsp;главе XXXIV романа Ильи Ильфа и&nbsp;Евгения Петрова &laquo;Двенадцать стульев&raquo;.
+			</p>
+		</div>
 	</footer>
-	<script src="main.js"></script>
+	<script>
+		const marquee = document.querySelectorAll('.marquee');
+		marquee.forEach(element => {
+			const block = element.querySelector('.marquee__container');
+
+			element.addEventListener('mouseenter', () => {
+				block.style.animationPlayState = 'paused';
+			});
+			element.addEventListener('mouseleave', () => {
+				block.style.animationPlayState = 'running';
+			});
+		});
+		
+		document.addEventListener('DOMContentLoaded', function(){	
+			Slider('#caruosel',{
+				dots:'#sliders',
+				pagination:'#group',
+				view:{
+					375: {coin: 1},
+					768: {coin: 2},
+					960: {coin: 3,marginEnd:20},
+				}
+			});
+		})
+	</script>
+	
 </body>
 </html>
